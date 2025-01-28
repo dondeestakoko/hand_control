@@ -1,0 +1,12 @@
+train: ../train
+val: ../test
+
+nc: 7
+names: ['down', 'hi', 'left', 'right', 'stop', 'up', 'zero']
+
+roboflow:
+  workspace: koceila-lemdani
+  project: gests-95vmv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koceila-lemdani/gests-95vmv/dataset/1
